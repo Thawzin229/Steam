@@ -13,7 +13,7 @@ Note: This Project is mainly intended for back-end processing . Please be patien
 
 Contributions are always welcome!
 
-I would like to contribute in the part of comment reply that i currently working on it.
+I would like you to contribute in the part of comment reply that i currently working on it.
 
 Please adhere to this project's `code of conduct`.
 
