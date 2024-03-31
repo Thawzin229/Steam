@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button, a, p{
+    font-family: sans-serif;
+}
+
+.top{
+    background-color: #171a21;
+    display: flex;
+    justify-content: center;
+}
+.white-hover:hover{
+    color: #fff;
+}
+
+
+.top-container{
+    font-family: sans-serif;
+    width: 940px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-top{
+    display: flex; 
+    align-items: center;
+}
+.logo img{
+    width: 175px;
+}
+.top-menu a{
+    display: inline-block;
+    margin-left: 15px ;
+    font-size: 14px;
+    color: #B8B6B4;
+}
+
+.storeNdropdown:hover .dropdown{
+    display: block;
+}
+.storeNdropdown{
+    position: relative;
+    display: inline-block;
+}
+.communityNdropdown:hover .dropdown{
+    display: block;
+}
+.communityNdropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    padding-top: 8px;
+    background-color: #171a21;
+    box-shadow: 0px 8px 4px 0px;
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+}
+.dropdown a{
+    font-size: 11px;
+    padding: 7px 10px;
+    display: block;
+}
+
+.login a{
+    display: inline-block;
+    margin-left: 20px ;
+    font-size: 11px;
+    color: #B8B6B4;
+}
+.login a:nth-child(1){
+    background-color: #5C7E10;
+    color: #d1d0cf;
+    padding: 10px 10px;
+}
+
+.login a:nth-child(1):hover{
+    color: #fff;
+}
+
+/* body */
+
+
+.body{
+    background-color: #212429;
+}
+.sign-form-container{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.sign-form-content{
+    padding: 50px 0px;
+}
+#sign-in-tittle{
+    width: 260px;
+    text-align: center;
+}
+.tittle{
+    margin-bottom: 30px;
+}
+.tittle p{
+    font-size: 34px;
+    color: #fff;
+}
+.userInfo-content p{
+    color: #B8B6B4;
+    font-size: 14px;
+}
+.userInfo-container{
+    width: 260px;
+}
+.userInfo-content input{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 95%;
+    color: #fff;
+    padding: 8px 6px;
+    border: none;
+    background: #32353C;
+}
+.userInfo-content input:focus{
+    outline: none;
+}
+.check-toRemember{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+}
+.check-toRemember p{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.sign-button {
+    margin-top: 20px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
+.sign-button button{
+    width: 75%;
+    padding: 8px;
+    background: linear-gradient(to right, #66c0f4, #2078eb);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sign-button button a{
+    color: #c3e1f8;
+    font-size: 15px;
+}
+.sign-button button:hover{
+    background: #78c9f8;
+}
+.sign-button button:hover a{
+    color: #fff;
+}
+.question a:hover{
+    color: #8fd4fc;
+}
+.question a, p{
+    font-size: 13px;
+    color: #fff;
+}
+.question{
+    margin-top: 10px;
+    width: 260px;
+    text-align: center;
+}
+.signForm-event{
+    display: flex;
+    margin-top: 20px;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+.signForm-event button{
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.295);    
+    border-radius: 2px;
+    color: #fff;
+}
+.signForm-event button:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 940px;
+}
+#checkbox2{
+    align-items: flex-start;
+}
+#signUp-button{
+    justify-content: flex-start;
+}
+#sign-up-container{
+    display: none;
+}
+
+.absolute-img img{
+    position: absolute;
+    width: 60%;
+}
+
+.bottom-end{
+    background-color: #171a21;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.bottom-end-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.bottom-end-content{
+    justify-content: space-between;
+    width: 940px;
+    display: flex;
+}
+.bottom-end-content img{
+    width: 90px;
+    height: 25px;
+}
+.bottom-end-text{
+    color: #8F98A0;
+    font-size: 12px;
+}
+.what-ever{
+    display: flex;
+}
+.bottom-end-text a{
+    color: #c6d4df;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bottom-end a:hover{
+    color: #fff;
+}
+.valve-menu{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.valve-menu hr{
+    color: #c6d4df;
+}
+.valve-menu a{
+    color: #c6d4df;
+}
+
+
+

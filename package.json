@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.1",
+        "laravel-vite-plugin": "^1.0.0",
+        "sass": "^1.70.0",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^1.0.14",
+        "@vitejs/plugin-vue": "^5.0.2",
+        "@vuesimple/vs-toast": "^3.0.5",
+        "alert": "^6.0.1",
+        "flowbite": "^2.2.1",
+        "flowbite-vue": "^0.1.2",
+        "js-alert": "^2.0.0",
+        "light-modal-vue3": "^1.2.34",
+        "lodash": "^4.17.21",
+        "vue": "^3.4.5",
+        "vue-notibar": "^0.3.6",
+        "vue-toast-plugin": "^1.0.2"
+    }
+}
