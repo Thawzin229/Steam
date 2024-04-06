@@ -18,7 +18,7 @@ class GoogleController extends Controller
     // login 
     public function login()
     {
-        $google_user = Socialite::driver("google")->user();
+        $google_user = Socialite::driver("google")->stateless()->user();
         $user = User::where("google_id",$google_user->getId())->first();
         if(!$user)
         {

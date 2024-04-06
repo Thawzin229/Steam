@@ -18,7 +18,7 @@ class GitHubController extends Controller
     // login 
     public function login()
     {
-        $github_user = Socialite::driver("github")->user();
+        $github_user = Socialite::driver("github")->stateless()->user();
         $user = User::where("google_id",$github_user->getId())->first();
         if(!$user)
         {
