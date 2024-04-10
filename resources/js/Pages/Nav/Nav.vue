@@ -186,12 +186,19 @@
                                 >
                                     <div class="flex-shrink-0">
                                         <img
+                                            v-if="noti.data.image"
                                             class="rounded-full w-11 h-11"
                                             :src="
                                                 'http://127.0.0.1:8000/storage/user_images/' +
                                                 noti.data.image
                                             "
-                                            alt="Joseph image"
+                                            alt=""
+                                        />
+                                        <img
+                                            v-if="noti.data.avatar"
+                                            class="rounded-full w-11 h-11"
+                                            :src="noti.data.avatar"
+                                            alt=""
                                         />
 
                                         <div

@@ -17,9 +17,9 @@ class AddFriendNotification extends Notification
      */
     public function __construct($id)
     {
-        $this->user_name = User::where("id",$id)->first()->toArray()['user_name'];
-        $this->image = User::where("id",$id)->first()->toArray()['image'];
-        $this->image = User::where("id",$id)->first()->toArray()['avatar'];
+        $this->user_name = User::where("id", $id)->first()->toArray()['user_name'];
+        $this->image = User::where("id", $id)->first()->toArray()['image'];
+        $this->avatar = User::where("id", $id)->first()->toArray()['avatar'];
     }
 
     /**
@@ -38,9 +38,9 @@ class AddFriendNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+            ->line('The introduction to the notification.')
+            ->action('Notification Action', url('/'))
+            ->line('Thank you for using our application!');
     }
 
     /**
