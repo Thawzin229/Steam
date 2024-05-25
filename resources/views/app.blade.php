@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    {{-- <link rel="stylesheet"
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="{{ asset('admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('admin/js/select.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('admin/images/favicon.png') }}" /> --}}
+    <link rel="shortcut icon" href="{{ asset('admin/images/favicon.png') }}" />
     <!-- admin css -->
 
     @vite('resources/js/app.js')
@@ -79,7 +79,7 @@
 <body>
     @inertia
 
-{{-- 
+
     <!-- script 1 -->
     <script src="{{ asset('user/steam1/js/script.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -147,7 +147,7 @@
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> --}}
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </body>
 
 </html>
