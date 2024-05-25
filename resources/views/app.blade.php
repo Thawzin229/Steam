@@ -12,10 +12,10 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- css link -->
-    <link rel="stylesheet" href="{{ asset('user/steam1/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/steam1/css/about.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/steam1/css/community.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/steam1/css/login.css') }}">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/steam1/css/style.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/steam1/css/about.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/steam1/css/community.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/steam1/css/login.css">
     <link href='https://css.gg/windows.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,17 +24,17 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     <!-- css link 2  -->
 
-    <link rel="stylesheet" href="{{ asset('user/blog/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/fontawesome/css/all.min.css') }}">
-    <link rel="stylesheet" href="font-{{ asset('user/blog/flaticon/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/dripicons.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/meanmenu.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/default.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('user/blog/css/responsive.css') }}">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/animate.min.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="font-https://steam-clone.up.railway.app/user/blog/flaticon/flaticon.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/dripicons.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/slick.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/meanmenu.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/default.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/style.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/user/blog/css/responsive.css">
     <!-- css link 2 -->
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
@@ -60,16 +60,16 @@
 
     <!-- admin css -->
 
-    <link rel="stylesheet" href="{{ asset('admin/vendors/feather/feather.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/mdi/css/materialdesignicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/ti-icons/css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/typicons/typicons.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/simple-line-icons/css/simple-line-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/css/vendor.bundle.base.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/js/select.dataTables.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('admin/images/favicon.png') }}" />
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/feather/feather.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="https://steam-clone.up.railway.app/admin/js/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://steam-clone.up.railway.app/admin/css/vertical-layout-light/style.css">
+    <link rel="shortcut icon" href="https://steam-clone.up.railway.app/admin/images/favicon.png" />
     <!-- admin css -->
 
     @vite('resources/js/app.js')
@@ -81,16 +81,16 @@
 
 
     <!-- script 1 -->
-    <script src="{{ asset('user/steam1/js/script.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam1/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="{{ asset('user/steam1/js/community.js') }}"></script>
-    <script src="{{ asset('user/steam1/js/login.js') }}"></script>
-    <script src="{{ asset('user/steam1/js/login.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam1/js/community.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam1/js/login.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam1/js/login.js"></script>
     <!-- script 1 -->
 
     <!-- script 2  -->
-    <script src="{{ asset('user/steam2/product-js.js') }}"></script>
-    <script src="{{ asset('user/steam2/checkout-js.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam2/product-js.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/steam2/checkout-js.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -99,23 +99,23 @@
     <!-- script 2  -->
 
     <!-- admin  -->
-    <script src="{{ asset('admin/vendors/js/vendor.bundle.base.js') }}"></script>
-    <script src="{{ asset('admin/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/admin/vendors/js/vendor.bundle.base.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
-    <script src="{{ asset('admin/vendors/chart.js/chart.min.js') }}"></script>
-    <script src="{{ asset('admin/vendors/progressbar.js/progressbar.min.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/admin/vendors/chart.js/chart.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/vendors/progressbar.js/progressbar.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="{{ asset('admin/js/off-canvas.js') }}"></script>
-    <script src="{{ asset('admin/js/hoverable-collapse.js') }}"></script>
-    <script src="{{ asset('admin/js/template.js') }}"></script>
-    <script src="{{ asset('admin/js/settings.js') }}"></script>
-    <script src="{{ asset('admin/js/todolist.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/off-canvas.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/hoverable-collapse.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/template.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/settings.js"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/todolist.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="{{ asset('admin/js/jquery.cookie.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('admin/js/dashboard.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="https://steam-clone.up.railway.app/admin/js/dashboard.js"></script>
     <!-- admin -->
 
     <!-- MDB -->
@@ -123,25 +123,25 @@
 
     <!-- blog scr -->
 
-    <script src="{{ asset('user/blog/js/vendor/modernizr-3.5.0.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/vendor/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/popper.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/slick.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/ajax-form.js') }}"></script>
-    <script src="{{ asset('user/blog/js/paroller.js') }}"></script>
-    <script src="{{ asset('user/blog/js/wow.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/js_isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/imagesloaded.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/parallax.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/jquery.scrollUp.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/jquery.meanmenu.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/parallax-scroll.js') }}"></script>
-    <script src="{{ asset('user/blog/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('user/blog/js/element-in-view.js') }}"></script>
-    <script src="{{ asset('user/blog/js/main.js') }}"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/popper.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/bootstrap.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/slick.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/ajax-form.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/paroller.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/wow.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/js_isotope.pkgd.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/imagesloaded.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/parallax.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/jquery.waypoints.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/jquery.counterup.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/jquery.scrollUp.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/jquery.meanmenu.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/parallax-scroll.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/element-in-view.js"></script>
+    <script src="https://steam-clone.up.railway.app/user/blog/js/main.js"></script>
     <!-- blog scrr -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2"></script>
