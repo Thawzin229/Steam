@@ -41,6 +41,10 @@ use App\Http\Controllers\UserCollectionController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/component',function(){
+    return Inertia::render('com');
+});
 Route::redirect('/','auth/loginpage');
 Route::post("/auth/logout",[AuthController::class,"Logout"]);
 Route::get('/redirect',[AuthController::class,"redirect"]);
